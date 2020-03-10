@@ -1,0 +1,30 @@
+<div class = "header">
+  <div class = "title">
+    30000days
+  </div>
+  <div class = "right-box">
+    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'logout-btn' %>
+  </div>
+  </div>
+<div class="center-box">
+  <div class = "first-box">
+    10000日目は、<br>
+    <%= @first.year %>年<%= @first.month%>月<%= @first.day%>日<br>
+    (27歳 4ヶ月)
+  </div>
+  <div class = "first-box">
+    20000日目は、<br>
+    <%= @second.year %>年<%= @second.month%>月<%= @second.month%>日<br>
+    (54歳 9ヶ月)
+  </div>
+  <div class = "first-box">
+    30000日目は、<br>
+    <%= @third.year %>年<%= @third.month%>月<%= @third.month%>日<br>
+    (82歳 1ヶ月)
+  </div>
+  <div class = "bottom-box">
+    <%= link_to "戻る", root_path, class: "show-btn" %>
+  </div>
+</div>
+
+

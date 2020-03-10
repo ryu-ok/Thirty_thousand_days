@@ -1,0 +1,17 @@
+<div class = "header">
+  <div class = "title">
+    30000days
+  </div>
+  <div class = "right-box">
+    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'logout-btn' %>
+  </div>
+</div>
+<div class = "main-box">
+  <div class="text-box">
+  <%= current_user.name %>さんは、<br>
+  本日   <%= @day %>   日目<br>
+  </div>
+  <div class = "bottom-box">
+    <%= link_to "年表へ", user_path(current_user), class: "show-btn" %>
+  </div>
+</div>

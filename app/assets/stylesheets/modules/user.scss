@@ -1,0 +1,65 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+  width:  100%;
+  height: 56px;
+  display: flex;
+  background-color: rgb(218, 37, 46);
+  position: relative;
+}
+.main-box {
+  height: calc(100vh - 56px);
+  width: 100%;
+  .text-box{
+    padding-top: 200px;
+    font-size: 80px;
+    text-align: center;
+  }
+}
+.bottom-box{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.show-btn{
+  text-decoration: none;
+  color: red;
+  font-size: 30px;
+  border: solid 2px red;
+  padding: 10px;
+
+}
+
+.title{
+  color: white;
+  font-size: 30px;
+  line-height: 56px;
+  margin-left: 100px;
+}
+
+.right-box{
+  position: absolute;
+  right: 200px;
+  line-height: 56px;
+}
+
+.logout-btn{
+  text-decoration: none;
+  color: white;
+}
+
+.center-box{
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+  .first-box{
+    margin: 40px auto;
+    height: 240px;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    border: solid 10px rgb(241, 52, 52);
+  }
+}
